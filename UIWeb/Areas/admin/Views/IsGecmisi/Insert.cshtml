@@ -1,0 +1,24 @@
+﻿@model DataAccess.Models.DahaOnceCalistigiYerler
+
+<div class="container">
+    <form action="/admin/IsGecmisi/Insert" method="post">
+        <input type="file" class="form-control" style="margin-bottom:10px;" placeholder="Kurum Logo" asp-for="IsYeriLogo" />
+        <input type="text" class="form-control" style="margin-bottom:10px;" placeholder="Kurum Adı" asp-for="kurumAdi" />
+        <input type="text" class="form-control" style="margin-bottom:10px;" placeholder="Çalıştığı Bölüm" asp-for="CalistigiAlan" />
+        <input type="text" class="form-control" style="margin-bottom:10px;" placeholder="Çalıştığı Seviye" asp-for="CalistigiRutbe" />
+        <input type="text" class="form-control" style="margin-bottom:10px;" placeholder="Kurum Konumu" asp-for="IsYeriKonumu" />
+        <label>İşe Giriş Tarihi</label>
+        <input type="date" class="form-control" style="margin-bottom:10px;" placeholder="İşe Başlangıç Tarihi" asp-for="IseGirisTarihi" />
+        <label>İşten Çıkış Tarihi</label>
+        <input type="date" class="form-control" style="margin-bottom:10px;" placeholder="İşten Çıkış Tarihi" asp-for="IstenCikisTarihi" />
+
+        <button type="submit" class="form-control btn btn-primary">Ekleme Yap</button>
+
+    </form>
+
+    @if (ViewBag.Message != null)
+    {
+            <div class="alert alert-success" style="margin-top:15px">@ViewBag.Message</div>
+
+    }
+</div>

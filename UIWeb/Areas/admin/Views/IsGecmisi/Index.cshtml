@@ -1,0 +1,45 @@
+﻿<div class="container">
+    <a href="/admin/IsGecmisi/Insert" class="btn btn-primary" style="margin-bottom:15px">Yeni Ekle</a>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <td>#</td>
+                <td>Kurum Logo</td>
+                <td>Kurum Adı</td>
+                <td>Calıştığı Rütbe</td>
+                <td>Calıştığı Alan</td>
+                <td>İş Yeri Konumu</td>
+                <td>İşe Giriş Tarihi</td>
+                <td>İşten Çıkış Tarihi</td>
+                <td>İşlemler</td>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td><img style="width:50px;"src="/images/@item.IsYeriLogo"></td>
+                    <td>@item.kurumAdi</td>
+                    <td>@item.CalistigiRutbe</td>
+                    <td>@item.CalistigiAlan</td>
+                    <td>@item.IsYeriKonumu</td>
+                    <td>@item.IseGirisTarihi.ToString("dd-MM-yyyy")</td>
+                    <td>@item.IstenCikisTarihi.ToString("dd-MM-yyyy")</td>
+                    <td>
+                        <a href="/admin/IsGecmisi/update/@item.Id" class="btn btn-primary">Güncelle</a>
+                        <a href="/admin/IsGecmisi/delete/@item.Id" class="btn btn-success">Sil</a>
+
+
+                    </td>
+
+                </tr>
+            }
+
+
+        </tbody>
+
+    </table>
+</div>

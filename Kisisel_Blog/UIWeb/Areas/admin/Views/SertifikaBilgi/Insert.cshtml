@@ -1,0 +1,19 @@
+﻿@model DataAccess.Models.Sertifikalar
+
+<div class="container">
+    <form action="/admin/SertifikaBilgi/Insert" method="post">
+        <input type="text" class="form-control" style="margin-bottom:10px;" placeholder="Sertifika Adı" asp-for="SertifikaAdi" />
+        <input type="text" class="form-control" style="margin-bottom:10px;" placeholder="Sertifikayı Veren Kurum" asp-for="VerenKurum" />
+        <input type="date" class="form-control" style="margin-bottom:10px;" placeholder="Sertifikanın Alındığı Tarih" asp-for="AlinanTarih" />
+      
+
+        <button type="submit" class="form-control btn btn-primary">Ekleme Yap</button>
+
+    </form>
+
+    @if (ViewBag.Message != null)
+    {
+                <div class="alert alert-success" style="margin-top:15px">@ViewBag.Message</div>
+
+    }
+</div>

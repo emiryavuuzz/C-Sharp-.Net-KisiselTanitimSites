@@ -1,0 +1,37 @@
+﻿<div class="container">
+    <a href="/admin/SertifikaBilgi/Insert" class="btn btn-primary" style="margin-bottom:15px">Yeni Ekle</a>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <td>#</td>
+                <td>Sertifika Adı</td>
+                <td>Veren Kurum</td>
+                <td>Alınan Tarih</td>
+                <td>İşlemler</td>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.SertifikaAdi</td>
+                    <td>@item.VerenKurum</td>
+                    <td>@item.AlinanTarih.ToString("dd-MM-yyyy")</td>
+                    <td>
+                        <a href="/admin/SertifikaBilgi/update/@item.Id" class="btn btn-primary">Güncelle</a>
+                        <a href="/admin/SertifikaBilgi/delete/@item.Id" class="btn btn-success">Sil</a>
+
+
+                    </td>
+
+                </tr>
+            }
+
+
+        </tbody>
+
+    </table>
+</div>

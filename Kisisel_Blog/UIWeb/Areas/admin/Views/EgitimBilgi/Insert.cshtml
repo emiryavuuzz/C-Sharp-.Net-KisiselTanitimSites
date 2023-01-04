@@ -1,0 +1,19 @@
+﻿@model DataAccess.Models.Egitim
+
+<div class="container">
+    <form action="/admin/EgitimBilgi/Insert" method="post">
+        <input type="text" class="form-control" style="margin-bottom:10px;" placeholder="Okul Adı" asp-for="OkulAdi" />
+        <input type="text" class="form-control" style="margin-bottom:10px;" placeholder="Bölüm" asp-for="BolumAdi" />
+        <input type="date" class="form-control" style="margin-bottom:10px;" placeholder="Başlangıç Tarihi" asp-for="BaslamaYili" />
+        <input type="date" class="form-control" style="margin-bottom:10px;" placeholder="Mezuniyet Yılı" asp-for="MezuniyetYili" />
+       
+        <button type="submit" class="form-control btn btn-primary">Ekleme Yap</button>
+
+    </form>
+
+    @if (ViewBag.Message != null)
+    {
+        <div class="alert alert-success" style="margin-top:15px">@ViewBag.Message</div>
+
+    }
+</div>

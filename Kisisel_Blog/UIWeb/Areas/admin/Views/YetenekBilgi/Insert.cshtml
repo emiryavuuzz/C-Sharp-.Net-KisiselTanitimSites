@@ -1,0 +1,19 @@
+﻿@model DataAccess.Models.Yetenekler
+
+<div class="container">
+    <form action="/admin/YetenekBilgi/Insert" method="post">
+        <input type="text" class="form-control" style="margin-bottom:10px;" placeholder="Yetenek Adı" asp-for="YetenekAdi" />
+        <input type="number" class="form-control" style="margin-bottom:10px;" placeholder="Bilgi Oranı" asp-for="BilgiOrani" />
+        <input type="number" class="form-control" style="margin-bottom:10px;" placeholder="Tecrübe Yılı" asp-for="TecrubeYili" />
+        
+
+        <button type="submit" class="form-control btn btn-primary">Ekleme Yap</button>
+
+    </form>
+
+    @if (ViewBag.Message != null)
+    {
+        <div class="alert alert-success" style="margin-top:15px">@ViewBag.Message</div>
+
+    }
+</div>

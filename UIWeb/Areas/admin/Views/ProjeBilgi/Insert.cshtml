@@ -1,0 +1,29 @@
+﻿@model DataAccess.Models.Projeler
+
+<div class="container">
+    <form action="/admin/ProjeBilgi/Insert" method="post" enctype="multipart/form-data">
+        <input type="file" class="form-control" style="margin-bottom:10px;" name="file" />
+        <input type="text" class="form-control" style="margin-bottom:10px;" placeholder="Proje Adı" asp-for="ProjeAdi" />
+
+        <textarea class="form-control" style="margin-bottom:10px;" placeholder="Projenin Amacı" asp-for="ProjeAmaci" ></textarea>
+        <select  class="form-control" style="margin-bottom:10px;" asp-for="ProjeCategory" >
+            <option value="Back-End">Back-End</option>
+            <option value="Front-End">Front-End</option>
+            <option value="Full Stack">Full Stack</option>
+
+        </select>
+        <input type="text" class="form-control" style="margin-bottom:10px;" placeholder="Projenin Yapıldığı Kurum" asp-for="ProjeninYapildigiKurum" />
+        <input type="text" class="form-control" style="margin-bottom:10px;" placeholder="Projenin Alan Adı" asp-for="ProjeAlanAdi" />
+        <input type="date" class="form-control" style="margin-bottom:10px;" placeholder="Projenin Yapılma Tarihi" asp-for="YapilisTarihi" />
+        
+
+        <button type="submit" class="form-control btn btn-primary">Ekleme Yap</button>
+
+    </form>
+
+    @if (ViewBag.Message != null)
+    {
+                <div class="alert alert-success" style="margin-top:15px">@ViewBag.Message</div>
+
+    }
+</div>

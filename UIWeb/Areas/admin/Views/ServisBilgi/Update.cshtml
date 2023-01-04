@@ -1,0 +1,28 @@
+﻿
+
+
+<div class="container">
+    <a href="/admin/KisiselBilgi" class="btn btn-primary" style="margin-bottom:10px;">Geri</a>
+
+    <form action="/admin/ServisBilgi/Update/@Model.Id" enctype="multipart/form-data" method="post">
+
+        <img style=" margin-bottom:10px;" src="/images/@Model.ServisFoto" width="250px" style="margin-bottom:10px;" />
+        <input name="ServisFoto" value="@Model.ServisFoto" hidden />
+        <input type="file" name="file" class="form-control" style="margin-bottom:10px;" />
+        <input type="text" class="form-control" name="ServisAdi" value="@Model.ServisAdi" style="margin-bottom:10px;" />
+        <textarea type="text" class="form-control" name="ServisAciklama" style="margin-bottom:10px;">@Model.ServisAciklama</textarea>
+        
+
+        <button type="submit" class="form-control btn btn-primary">Kaydet</button>
+
+    </form>
+</div>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-success" style="margin-top:15px;">@ViewBag.Message</div>
+}
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger" style="margin-top:15px;">@ViewBag.Error</div>
+}

@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-inverse" style="margin-top:25px">
+            <div class="container-fluid">
+                <div class="navbar-header"><a class="navbar-brand" href="/">Anasayfa</a></div>
+                <ul class="nav navbar-nav">
+                    <li><a href="/admin/KisiselBilgi">Kisisel</a></li>
+                    <li><a href="/admin/EgitimBilgi">Eğitimler</a></li>
+                    <li><a href="/admin/SertifikaBilgi">Sertifikalar</a></li>
+                    <li><a href="/admin/YetenekBilgi">Yetenekler</a></li>
+                    <li><a href="/admin/ProjeBilgi">Projeler</a></li>
+                    <li><a href="/admin/IsGecmisi">İş Geçmişi</a></li>
+                    <li><a href="/admin/ServisBilgi">Servisler</a></li>
+                    <li><a href="/admin/yoneticiler">Yöneticiler</a></li>
+                    
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/admin/cikis">Çıkış Yap</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

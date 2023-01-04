@@ -1,0 +1,20 @@
+﻿
+
+
+<div class="container">
+    <a href="/admin/KisiselBilgi" class="btn btn-primary" style="margin-bottom:15px;">Geri Git</a>
+    <form action="/admin/EgitimBilgi/Update/@Model.Id" method="post">
+        <input type="text" class="form-control" style="margin-bottom:10px;" value="@Model.OkulAdi" name="OkulAdi" />
+        <input type="text" class="form-control" style="margin-bottom:10px;" value="@Model.BolumAdi" name="BolumAdi" />
+        <input type="datetime" class="form-control" style="margin-bottom:10px;" value="@Model.BaslamaYili.ToString("dd/MM/yyyy")" name="BaslamaYili" />
+        <input type="datetime" class="form-control" style="margin-bottom:10px;" value="@Model.MezuniyetYili.ToString("dd/MM/yyyy")" name="MezuniyetYili" />
+        
+        <button type="submit" class="form-control btn btn-primary">Ekleme Yap</button>
+    </form>
+
+    @if (ViewBag.Message != null)
+    {
+        <div class="alert alert-success" style="margin-top:15px">@ViewBag.Message</div>
+
+    }
+</div>

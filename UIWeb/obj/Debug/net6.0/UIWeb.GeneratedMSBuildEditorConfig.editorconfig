@@ -1,0 +1,149 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = UIWeb
+build_property.RootNamespace = UIWeb
+build_property.ProjectDir = C:\Users\emiry\source\repos\Kisisel_Blog\UIWeb\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\emiry\source\repos\Kisisel_Blog\UIWeb
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/admin_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcYWRtaW5fTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/Cikis/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcQ2lraXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/EgitimBilgi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcRWdpdGltQmlsZ2lcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/EgitimBilgi/Insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcRWdpdGltQmlsZ2lcSW5zZXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/EgitimBilgi/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcRWdpdGltQmlsZ2lcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/Giris/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcR2lyaXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/IsGecmisi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcSXNHZWNtaXNpXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/IsGecmisi/Insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcSXNHZWNtaXNpXEluc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/IsGecmisi/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcSXNHZWNtaXNpXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/KisiselBilgi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcS2lzaXNlbEJpbGdpXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/KisiselBilgi/Insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcS2lzaXNlbEJpbGdpXEluc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/KisiselBilgi/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcS2lzaXNlbEJpbGdpXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/ProjeBilgi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcUHJvamVCaWxnaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/ProjeBilgi/Insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcUHJvamVCaWxnaVxJbnNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/ProjeBilgi/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcUHJvamVCaWxnaVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/SertifikaBilgi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2VydGlmaWthQmlsZ2lcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/SertifikaBilgi/Insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2VydGlmaWthQmlsZ2lcSW5zZXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/SertifikaBilgi/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2VydGlmaWthQmlsZ2lcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/ServisBilgi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2VydmlzQmlsZ2lcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/ServisBilgi/Insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2VydmlzQmlsZ2lcSW5zZXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/ServisBilgi/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcU2VydmlzQmlsZ2lcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/YetenekBilgi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcWWV0ZW5la0JpbGdpXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/YetenekBilgi/Insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcWWV0ZW5la0JpbGdpXEluc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/YetenekBilgi/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcWWV0ZW5la0JpbGdpXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/Yoneticiler/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcWW9uZXRpY2lsZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/Yoneticiler/Insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcWW9uZXRpY2lsZXJcSW5zZXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/Yoneticiler/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcWW9uZXRpY2lsZXJcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Areas/admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcYWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Views/Anasayfa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hc2F5ZmFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Views/Anasayfa/ProjeDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hc2F5ZmFcUHJvamVEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Views/_LayoutUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX0xheW91dFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emiry/source/repos/Kisisel_Blog/UIWeb/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

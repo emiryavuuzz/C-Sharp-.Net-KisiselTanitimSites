@@ -1,0 +1,8 @@
+C:\Users\emiry\source\repos\Kisisel_Blog\UIWeb\obj\Release\net6.0\UIWeb.csproj.AssemblyReference.cache
+C:\Users\emiry\source\repos\Kisisel_Blog\UIWeb\obj\Release\net6.0\UIWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emiry\source\repos\Kisisel_Blog\UIWeb\obj\Release\net6.0\UIWeb.AssemblyInfoInputs.cache
+C:\Users\emiry\source\repos\Kisisel_Blog\UIWeb\obj\Release\net6.0\UIWeb.AssemblyInfo.cs
+C:\Users\emiry\source\repos\Kisisel_Blog\UIWeb\obj\Release\net6.0\UIWeb.csproj.CoreCompileInputs.cache
+C:\Users\emiry\source\repos\Kisisel_Blog\UIWeb\obj\Release\net6.0\UIWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\emiry\source\repos\Kisisel_Blog\UIWeb\obj\Release\net6.0\UIWeb.RazorAssemblyInfo.cache
+C:\Users\emiry\source\repos\Kisisel_Blog\UIWeb\obj\Release\net6.0\UIWeb.RazorAssemblyInfo.cs

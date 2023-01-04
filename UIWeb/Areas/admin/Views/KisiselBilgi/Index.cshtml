@@ -1,0 +1,57 @@
+﻿
+
+<div class="container">
+    <a href="/admin/KisiselBilgi/Insert" class="btn btn-primary" style="margin-bottom:15px">Yeni Kişi Ekle</a>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <td>#</td>
+                <td>Profil Foto</td>
+                <td>Adı</td>
+                <td>Mail</td>
+                <td>Şifre</td>
+                <td>Telefon</td>
+                <td>Linkedin</td>
+                <td>Instagram</td>
+                <td>Twitter</td>
+                <td>GitHub</td>
+                <td>Ülke</td>
+                <td>Rütbe</td>
+                <td>Son Güncelleme Tarihi</td>
+                <td>İşlemler</td>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td><img style="width:50px; border-radius:20px 20px 20px 20px;" src="/images/@item.ProfilPhoto"></td>
+                    <td>@item.Name</td>
+                    <td>@item.Email</td>
+                    <td>@item.Password</td>
+                    <td>@item.Phone</td>
+                    <td>@item.Linkedin</td>
+                    <td>@item.Instagram</td>
+                    <td>@item.Twitter</td>
+                    <td>@item.Github</td>
+                    <td>@item.Country</td>
+                    <td>@item.Level</td>
+                    <td>@item.SonGuncelleme.ToString("dd-MM-yyyy")</td>
+                    <td>
+                        <a href="/admin/KisiselBilgi/update/@item.Id" class="btn btn-primary">Güncelle</a>
+                        <a href="/admin/KisiselBilgi/delete/@item.Id" class="btn btn-success">Sil</a>
+                        
+
+                    </td>
+
+                </tr>
+            }
+
+
+        </tbody>
+
+    </table>
+</div>

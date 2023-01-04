@@ -1,0 +1,20 @@
+﻿
+
+
+<div class="container">
+    <a href="/admin/KisiselBilgi" class="btn btn-primary" style="margin-bottom:15px;">Geri Git</a>
+    <form action="/admin/SertifikaBilgi/Update/@Model.Id" method="post">
+        <input type="text" class="form-control" style="margin-bottom:10px;" value="@Model.SertifikaAdi" name="SertifikaAdi" />
+        <input type="text" class="form-control" style="margin-bottom:10px;" value="@Model.VerenKurum" name="VerenKurum" />
+        <input type="date" class="form-control" style="margin-bottom:10px;" value="@Model.AlinanTarih.ToString("dd/MM/yyyy")" name="AlinanTarih" />
+        
+
+        <button type="submit" class="form-control btn btn-primary">Ekleme Yap</button>
+    </form>
+
+    @if (ViewBag.Message != null)
+    {
+            <div class="alert alert-success" style="margin-top:15px">@ViewBag.Message</div>
+
+    }
+</div>

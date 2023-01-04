@@ -1,0 +1,30 @@
+﻿
+<div class="container">
+    <a href="/admin/KisiselBilgi" class="btn btn-primary" style="margin-bottom:10px;">Geri</a>
+
+    <form action="/admin/IsGecmisi/Update/@Model.Id" enctype="multipart/form-data" method="post">
+
+        <img style="border-radius:90px 90px 90px 90px; margin-bottom:10px;" src="/images/@Model.IsYeriLogo" width="250px"  style="margin-bottom:10px;" />
+        <input name="IsYeriLogo" value="@Model.IsYeriLogo" hidden />
+        <input type="file" name="file" class="form-control" style="margin-bottom:10px;"/>
+        <input type="text" class="form-control" name="KurumAdi" value="@Model.kurumAdi" style="margin-bottom:10px;" />
+        <input type="text" class="form-control" name="CalistigiRutbe" value="@Model.CalistigiRutbe" style="margin-bottom:10px;" />
+        <input type="text" class="form-control" name="CalistigiAlan" value="@Model.CalistigiAlan" style="margin-bottom:10px;" />
+        <input type="text" class="form-control" name="IsYeriKonumu" value="@Model.IsYeriKonumu" style="margin-bottom:10px;" />
+        <input type="datetime" class="form-control" name="IseGirisTarihi" value="@Model.IseGirisTarihi.ToString("dd/MM/yyyy")" style="margin-bottom:10px;" />
+        <input type="datetime" class="form-control" name="IstenCikisTarihi" value="@Model.IstenCikisTarihi.ToString("dd/MM/yyyy")" style="margin-bottom:10px;" />
+        
+
+        <button type="submit" class="form-control btn btn-primary">Kaydet</button>
+
+    </form>
+</div>
+
+@if (ViewBag.Message != null)
+{
+            <div class="alert alert-success" style="margin-top:15px;">@ViewBag.Message</div>
+}
+@if (ViewBag.Error != null)
+{
+            <div class="alert alert-danger" style="margin-top:15px;">@ViewBag.Error</div>
+}

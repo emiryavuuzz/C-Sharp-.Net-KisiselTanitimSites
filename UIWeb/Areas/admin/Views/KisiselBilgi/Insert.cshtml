@@ -1,0 +1,33 @@
+﻿@model DataAccess.Models.Users
+
+<div class="container">
+    <a href="/admin/KisiselBilgi" class="btn btn-primary" style="margin-bottom:10px;">Geri</a>
+
+    <form action="/admin/KisiselBilgi/Insert" method="post" enctype="multipart/form-data">
+
+        <input type="file" class="form-control" style="margin-bottom:10px;" name="file" />
+        <input type="text" class="form-control" style="margin-bottom:10px;" placeholder="Adı Soyadı" asp-for="Name" />
+        <input type="date" class="form-control" style="margin-bottom:10px;" placeholder="Doğum Tarihi" asp-for="BornDate" />
+        <input type="text" class="form-control" style="margin-bottom:10px;" placeholder="Email" asp-for="Email" />
+        <input type="password" class="form-control" style="margin-bottom:10px;" placeholder="Şifre" asp-for="Password" />
+        <input type="text" class="form-control" style="margin-bottom:10px;" placeholder="Telefon Numarası" asp-for="Phone" />
+        <input type="text" class="form-control" style="margin-bottom:10px;" placeholder="Linkedin Hesabı" asp-for="Linkedin" />
+        <input type="text" class="form-control" style="margin-bottom:10px;" placeholder="Instagram Hesabı" asp-for="Instagram" />
+        <input type="text" class="form-control" style="margin-bottom:10px;" placeholder="GitHub Hesabı" asp-for="Github" />
+        <input type="text" class="form-control" style="margin-bottom:10px;" placeholder="Twitter Hesabı" asp-for="Twitter" />
+        <input type="text" class="form-control" style="margin-bottom:10px;" placeholder="Ülke" asp-for="Country" />
+        <input type="text" class="form-control" style="margin-bottom:10px;" placeholder="Yazılım Seviyeniz" asp-for="Level" />
+        
+       
+        <button type="submit" class="form-control btn btn-primary">Kaydet</button>
+    </form>
+</div>
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-success" style="margin-top:15px">@ViewBag.Message</div>
+
+}
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger" style="margin-top:15px">@ViewBag.Error</div>
+}

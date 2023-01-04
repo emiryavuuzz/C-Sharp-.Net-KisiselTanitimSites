@@ -1,0 +1,39 @@
+﻿<div class="container">
+    <a href="/admin/ServisBilgi/Insert" class="btn btn-primary" style="margin-bottom:15px">Yeni Ekle</a>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <td>#</td>
+                <td>Servis Foto</td>
+                <td>Servis Adı</td>
+                <td>Servis Açıklama</td>
+                
+                <td>İşlemler</td>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td><img style="width:70px;" src="/images/@item.ServisFoto"/></td>
+                    <td>@item.ServisAdi</td>
+                    <td>@item.ServisAciklama</td>
+                   
+                    <td>
+                        <a href="/admin/ServisBilgi/update/@item.Id" class="btn btn-primary">Güncelle</a>
+                        <a href="/admin/ServisBilgi/delete/@item.Id" class="btn btn-success">Sil</a>
+
+
+                    </td>
+
+                </tr>
+            }
+
+
+        </tbody>
+
+    </table>
+</div>
